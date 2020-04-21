@@ -13,9 +13,9 @@ export CLUSTER_INGRESS_SECRET='securitywsossgx-1114df6af146f625ed759e717297e519-
 export CLUSTER_INGRESS="cloud-fund.${CLUSTER_INGRESS_SECRET}.${CLUSTER_REGION}.containers.appdomain.cloud"
 
 # Key Protect values
-export KEY_PROTECT_INSTANCE="Key Protect-iy"
-export KEY_PROTECT_MANAGEMENT_URL="crn:v1:bluemix:public:kms:us-south:a/10d5953a4ae3bcb588e62b724aa43d70:0a674e1f-d65a-493f-af65-054b0a304dd9:key:a46dae69-2bfc-440a-9864-e8a8f183e827"
-export KEY_NAME="cloud-fund-key"
+export KEY_PROTECT_INSTANCE="key-protect-sec-demo"
+export KEY_PROTECT_MANAGEMENT_URL="crn:v1:bluemix:public:kms:us-south:a/9a19bcd575f8ac603cc286e7b1107451:85f08225-bd66-4216-806d-6a087778695d:key:6364afc8-9321-4a9d-b601-7e4db077aad4"
+export KEY_NAME="test"
 
 #DBaaS values
 export RAW_DB_CONN='c72fa204-38fe-4c66-a147-d3bd6beaaa09-0.bn2a2vgd01r3l0hfmvc0.databases.appdomain.cloud:31673,c72fa204-38fe-4c66-a147-d3bd6beaaa09-1.bn2a2vgd01r3l0hfmvc0.databases.appdomain.cloud:31673/ibmclouddb?authSource=admin&replicaSet=replset'
