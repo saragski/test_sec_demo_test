@@ -9,7 +9,7 @@ export CLUSTER_API_KEY="b4Xld3tYxW76J-gOYjTRWn1SuTeWyXu3NZkA-TBM6rU9"
 export CLUSTER_RESOURCE_GROUP='fit-resources'
 export CLUSTER_REGION='us-south'
 export CLUSTER_NAME='securityWS_osSGX'
-export CLUSTER_INGRESS_SECRET='mycluster-138429-e7b9f0d14700d5478c54256249ff5e85-0000'
+export CLUSTER_INGRESS_SECRET='securitywsossgx-1114df6af146f625ed759e717297e519-0000'
 export CLUSTER_INGRESS="cloud-fund.${CLUSTER_INGRESS_SECRET}.${CLUSTER_REGION}.containers.appdomain.cloud"
 
 # Key Protect values
